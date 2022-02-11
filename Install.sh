@@ -140,9 +140,9 @@ echo && echo -e " 一键网络重装管理脚本 ${Red_font_prefix}[v${sh_ver}]$
   -- 就是爱生活 | 94ish.me --
   
 ————————————选择版本————————————
- ${Green_font_prefix}1.${Font_color_suffix} 安装 Debian7系统
- ${Green_font_prefix}2.${Font_color_suffix} 安装 Debian8系统
- ${Green_font_prefix}3.${Font_color_suffix} 安装 Debian9系统
+ ${Green_font_prefix}1.${Font_color_suffix} 安装 Debian9系统
+ ${Green_font_prefix}2.${Font_color_suffix} 安装 Debian10系统
+ ${Green_font_prefix}3.${Font_color_suffix} 安装 Debian11系统
 ————————————切换模式————————————
  ${Green_font_prefix}4.${Font_color_suffix} 切换安装位数
  ${Green_font_prefix}5.${Font_color_suffix} 切换安装模式
@@ -158,13 +158,13 @@ case "$num" in
 	start_menu
 	;;
 	1)
-	InstallOS "7"
+	InstallOS "9"
 	;;
 	2)
-	InstallOS "8"
+	InstallOS "10"
 	;;
 	3)
-	InstallOS "9"
+	InstallOS "11"
 	;;
 	4)
 	switchbit
@@ -195,9 +195,9 @@ echo && echo -e " 一键网络重装管理脚本 ${Red_font_prefix}[v${sh_ver}]$
   -- 就是爱生活 | 94ish.me --
   
 ————————————选择版本————————————
- ${Green_font_prefix}1.${Font_color_suffix} 安装 Ubuntu14系统
- ${Green_font_prefix}2.${Font_color_suffix} 安装 Ubuntu16系统
- ${Green_font_prefix}3.${Font_color_suffix} 安装 Ubuntu18系统
+ ${Green_font_prefix}1.${Font_color_suffix} 安装 Ubuntu16系统
+ ${Green_font_prefix}2.${Font_color_suffix} 安装 Ubuntu18系统
+ ${Green_font_prefix}3.${Font_color_suffix} 安装 Ubuntu20系统
 ————————————切换模式————————————
  ${Green_font_prefix}4.${Font_color_suffix} 切换安装位数
  ${Green_font_prefix}5.${Font_color_suffix} 切换安装模式
@@ -213,13 +213,13 @@ case "$num" in
 	start_menu
 	;;
 	1)
-	InstallOS "trusty"
+	InstallOS "16.04"
 	;;
 	2)
-	InstallOS "xenial"
+	InstallOS "18.04"
 	;;
 	3)
-	InstallOS "cosmic"
+	InstallOS "20.04"
 	;;
 	4)
 	switchbit
